@@ -63,7 +63,7 @@ public class PatientTests {
 //            System.out.println(bloodTypeCountResponseDTO);
 //        }
 
-        Page<Patient> patientList = patientRepository.findAllPatient(PageRequest.of(0, 3, Sort.by("name").descending()));
+        Page<Patient> patientList = patientRepository.findAllPatients(PageRequest.of(0, 3, Sort.by("name").descending()));
         for (Patient patient : patientList){
             System.out.println(patient);
         }

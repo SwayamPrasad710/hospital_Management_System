@@ -1,7 +1,6 @@
 package com.swayamPrasad.hospital_Management_System;
 
 import com.swayamPrasad.hospital_Management_System.entity.Appointment;
-import com.swayamPrasad.hospital_Management_System.service.AppointmentService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
